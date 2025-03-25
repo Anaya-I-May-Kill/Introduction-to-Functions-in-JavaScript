@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: #a9b8ca;
+        color: #fffefc;
+        font-family: ;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FUCTIONS - Arithmetic</h1>
+
+    <script>
+      //REGULAR FUNCTION - ADDITION
+      function add(a, b) {
+        return a + b;
+      }
+
+      //EXPRESSION FUNCTION - SUBTRACTION
+      var sub = function (a, b) {
+        return a - b;
+      };
+
+      //ARROW FUNCTION - MULTIPLICATION
+      var mult = (a, b) => a * b;
+
+      //ARROW FUNCTION - DIVISION
+      var div = (a, b) => a / b;
+
+      document.write(`ADDITION [36 + 9] : ${add(36, 9)} <br><br>`);
+      document.write(`SUBTRACTION [36 - 9] : ${sub(36, 9)} <br><br>`);
+      document.write(`MULTIPLICATION [36 * 9] : ${mult(36, 9)} <br><br>`);
+      document.write(`DIVISION [36 / 9] : ${div(36, 9)} <br><br>`);
+    </script>
+  </body>
+</html>
